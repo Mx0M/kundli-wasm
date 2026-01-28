@@ -1,0 +1,124 @@
+:root {
+  --bg: #f7f7f7;
+  --card: #ffffff;
+  --border: #ddd;
+  --accent: #3f51b5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background: var(--bg);
+  color: #222;
+}
+
+header {
+  background: var(--accent);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.25rem;
+}
+
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+input,
+select {
+  padding: 6px;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  font-size: 0.9rem;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+details {
+  margin-bottom: 8px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+tr.current {
+  background-color: #fff3cd;
+  font-weight: bold;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  table {
+    font-size: 0.8rem;
+  }
+}

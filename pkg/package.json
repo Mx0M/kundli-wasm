@@ -1,0 +1,18 @@
+{
+  "name": "kundli_core",
+  "type": "module",
+  "collaborators": [
+    "Mukesh Singh"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "kundli_core_bg.wasm",
+    "kundli_core.js",
+    "kundli_core.d.ts"
+  ],
+  "main": "kundli_core.js",
+  "types": "kundli_core.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
