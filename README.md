@@ -4,6 +4,8 @@ A high-precision **Vedic astrology (Jyotish) computation engine** written in **R
 
 The project focuses on **astronomical correctness, clean architecture**, and **extensibility**, providing a solid foundation for kundli generation, divisional charts, and dasha systems.
 
+**Site:** [Astrolyk Kundli](https://www.astrolyk.com/kundli/)  
+
 ---
 
 ## ✨ Features
